@@ -1,0 +1,95 @@
+#wrapper select{
+	margin: 3% 0 0 90%;
+}
+#doctorLogin{
+	margin-top: 6%;
+}
+.login{
+	border-radius: 10px;
+	background: #1BADC1;
+	color: #fff;
+	padding: 5% 0;
+}
+#doctorLogin .login input{
+	width: 350px;
+	margin-left: 10%;
+	color: grey;
+}
+#doctorLogin .login .citizenId{
+	margin-left: 12%;
+}
+#doctorLogin .login .password{
+	margin: 3% 0 3% 11%;
+	/*margin-left: 11%;*/
+}
+#doctorLogin .login div a{
+	text-decoration: none;
+	color: #fff;
+}
+#doctorLogin .login button{
+	width: 110px;
+	height: 35px;
+	float: right;
+	margin:3% 11% 0 0;
+	background: #26CB30;
+	border: none;
+	border-radius: 5px;
+	transition:.5s;
+}
+#doctorLogin .login button:hover{
+    background: #26CB74;
+    color: grey;
+}
+@media (max-width: 1201px){
+	#wrapper select{
+		margin-left:80%; 
+	}
+	#doctorLogin .login input{
+		width: 300px;
+	}
+}
+@media (max-width: 993px){
+    #doctorLogin .login input{
+		width: 450px;
+	}
+	#doctorLogin .login button{
+		margin: 0 15% 0 0; 
+	}
+}
+@media (max-width: 740px){
+	.login{
+		width: 650px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 660px){
+	.login{
+		width: 600px;
+	}
+	#doctorLogin .login input{
+		width: 400px;
+	}
+	#doctorLogin .login button{
+		/*display:inline-block;*/
+		float: none;
+		/*margin: 0 auto;*/
+	}
+}
+@media(max-width: 606px){
+	.login{
+		width: 90%;
+	}
+	#doctorLogin .login input{
+		width: 60%;
+	}
+	#doctorLogin .login button{
+		width: 60%;
+		margin: 0 auto;
+		display: block;
+	}
+}
+@media (max-width: 362px){
+	#doctorLogin .login input{
+		width: 90%;
+	}
+}
